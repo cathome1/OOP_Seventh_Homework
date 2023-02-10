@@ -1,17 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f7ed913-c5d3-417b-8ede-5e5538dc8147" name="Changes" comment="" />
+    <list default="true" id="214a5305-354b-4dc5-b267-86f8ceac1da7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/TeacherController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/db/StudentTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/db/Table.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dto/GroupStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dto/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dto/StudentGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dto/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dto/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dto/comparators/GroupStreamComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dto/comparators/UserComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dto/iterators/GroundStreamIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dto/iterators/StudentGroupIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/repository/GroupRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/repository/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/repository/StudentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/repository/TeacherRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/GroupStreamService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/GroupStreamServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/StudentGroupService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/StudentGroupServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/TeacherService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/terminal/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/terminal/TerminalReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/terminal/executable/executables/AbstractCommandExecutable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/terminal/executable/executables/CommandExecutable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/terminal/executable/executables/CommandResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/terminal/executable/executables/CreateStudentExecutable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/terminal/executable/executables/DeleteStudentByAgeAndGroupNumberExecutable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/terminal/executable/executables/DeleteStudentByFioExecutable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/terminal/executable/executables/NoneCommandExecutable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/terminal/executable/factories/CommandExecutableFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/terminal/executable/factories/CommandExecutableFactoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/terminal/executable/factories/LoggingCommandExecutableFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/terminal/menu/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/terminal/parser/CommandParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/terminal/parser/CommandParserImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/terminal/view/ResultView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/terminal/view/ResultViewImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/ReadFromTxt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Laptop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="2JdB3x7H9mZpT8a21zQY1pxHFh6" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2LXF0QQ636mMiMbM3s4JhjRfU1R" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -19,17 +84,27 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/home/c47h0m3/IdeaProjects/Java_Seventh_Homework/src/utils"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/utils" />
+      <recent name="$PROJECT_DIR$/src/terminal/executable" />
+      <recent name="$PROJECT_DIR$/src/terminal/view" />
+      <recent name="$PROJECT_DIR$/src/terminal/parser" />
+      <recent name="$PROJECT_DIR$/src/terminal/menu" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4f7ed913-c5d3-417b-8ede-5e5538dc8147" name="Changes" comment="" />
-      <created>1672397887478</created>
+      <changelist id="214a5305-354b-4dc5-b267-86f8ceac1da7" name="Changes" comment="" />
+      <created>1676009301612</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1672397887478</updated>
+      <updated>1676009301612</updated>
     </task>
     <servers />
   </component>
